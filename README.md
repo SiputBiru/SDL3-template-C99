@@ -20,7 +20,7 @@ If we haven't created the project yet, initialize it. If we are cloning this fro
 git clone --recursive <our-repo-url>
 ```
 
-`OR if we already cloned without recursive:`
+OR if we already cloned without recursive:
 
 ```bash
 git submodule update --init --recursive
