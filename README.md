@@ -12,15 +12,27 @@ A modern C99 project template using SDL3 as a git submodule and CMake for build 
 
 ## How to Build and Run
 
-### 1. Clone the Repository
+### 1. Start a New Project
 
-If we haven't created the project yet, initialize it. If we are cloning this from a repo, make sure to pull the submodules recursively:
+**Option A: Use as GitHub Template (Recommended)**
+
+1. Click the green **"Use this template"** button at the top of this page to create a new repository under your own account.
+
+2. Clone your newly created repository (don't forget the `--recursive` flag to grab SDL3!):
 
 ```bash
-git clone --recursive <our-repo-url>
+git clone --recursive https://github.com/YOUR_USERNAME/YOUR_PROJECT_NAME.git
+
 ```
 
-OR if we already cloned without recursive:
+**Option B: Manual Clone If you are cloning this repository directly to contribute or test:**
+
+```bash
+git clone --recursive <this-repo-url>
+
+```
+
+Note: If you forgot `--recursive` when cloning, run this inside the folder:
 
 ```bash
 git submodule update --init --recursive
