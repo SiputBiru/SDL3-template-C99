@@ -38,11 +38,10 @@ cmake -B build
 
 Compile the code.
 
-````
+```
 
-```bash
 cmake --build build
-````
+```
 
 ### 4. Run the Executable
 
