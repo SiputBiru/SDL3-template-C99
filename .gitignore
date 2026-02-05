@@ -1,3 +1,43 @@
+# ------------------------------
+# Build & Binary Directories
+# ------------------------------
+# The folder where we run 'cmake -B build'
+build/
+# Any standalone binary/library output folders
+bin/
+lib/
+
+# ------------------------------
+# CMake Generated Files
+# ------------------------------
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+*.cmake
+!CMakeLists.txt
+
+# ------------------------------
+# IDE & Editor Settings
+# ------------------------------
+# VS Code
+.vscode/
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+# JetBrains / CLion
+.idea/
+cmake-build-*/
+# Mac
+.DS_Store
+
+# ------------------------------
+# Compilation Artifacts (User Added)
+# ------------------------------
 # Prerequisites
 *.d
 
@@ -41,6 +81,7 @@
 *.su
 *.idb
 *.pdb
+*.dwo
 
 # Kernel Module Compile Results
 *.mod*
@@ -50,6 +91,3 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-
-# debug information files
-*.dwo

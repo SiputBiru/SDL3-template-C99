@@ -9,14 +9,14 @@ int main(int argc, char *argv[]) {
     }
 
     // Create a window
-    SDL_Window *window = SDL_CreateWindow("SDL3 C99 Setup", 800, 600, 0);
+    SDL_Window *window = SDL_CreateWindow("SDL3 Setup", 800, 600, 0);
     if (!window) {
         SDL_Log("Could not create window: %s", SDL_GetError());
         SDL_Quit();
         return 1;
     }
 
-    SDL_Log("Hello from C99 and SDL3!");
+    SDL_Log("Hello from SDL3!");
 
     // Simple event loop to keep the window open
     SDL_Event event;
